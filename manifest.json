@@ -1,0 +1,25 @@
+{
+    "name": "Hot Dog Extension - PROD",
+    "description": "Opens a website that's literally just a hotdog every 5 - 60 minutes!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "tabs", "alarms"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/perfect16.png",
+            "32": "/images/perfect32.png",
+            "48": "/images/perfect48.png",
+            "128": "/images/perfect128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/perfect16.png",
+        "32": "/images/perfect32.png",
+        "48": "/images/perfect48.png",
+        "128": "/images/perfect128.png"
+    }
+}
